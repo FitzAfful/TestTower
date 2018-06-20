@@ -1,7 +1,7 @@
 class Names{
 
     String surname;
-    String firstName;
+    String lastName;
 
     public static void main(String[] args) {
         println("Kofi is a boy");
@@ -16,6 +16,6 @@ class Names{
     }
 
     public String getFullName() {
-        return surname + ' ' + firstName;
+        return surname + ' ' + lastName;
     }
 }
