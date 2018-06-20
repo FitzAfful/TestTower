@@ -14,4 +14,8 @@ class Names{
     public String getFirstName(){
         return firstName;
     }
+
+    public String getFullName() {
+        return surname + ' ' + firstName;
+    }
 }
